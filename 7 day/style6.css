@@ -1,0 +1,77 @@
+*{
+    position: relative;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+/* time line */
+.container{
+    background: cornflowerblue;
+}
+.time-line{
+    width: 20px;
+    height: 700px;
+    margin: 0 auto;
+    background-color: crimson;
+    text-align: center;
+
+
+}
+.number{
+     margin: 20px auto;
+    left: -20px; 
+    width: 60px;
+    height: 60px;
+    background: chocolate;
+    border-radius: 50%;
+    padding: 20px;
+    
+    
+}
+.one{
+    top: 10px;  
+}
+.two{
+    top: 50px;
+    
+}
+.three{
+    top: 150px;
+    
+}
+.four{
+    top: 300px;
+   
+}
+/* cards */
+ 
+.card{
+    width: 400px;
+    background: yellow;
+    /* padding: 10px; */
+}
+.card-body{
+    padding: 10px;
+    
+}
+.card-title{
+    background: crimson;
+    font-weight: bold;
+    border: none; 
+    padding: 10px;
+}
+.card-1{
+    top: -700px;
+    left: 1200px;
+}
+.card-2{
+    top: -700px;
+    left: 300px;
+}
+.card-3{
+    top: -600px;
+    left: 1200px;
+}
+.card-4{
+    top: -500px;
+    left: 300px;
+}

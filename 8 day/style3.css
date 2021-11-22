@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+.head{
+    background-color: red;
+    width: 70%;
+    height: 150px;
+
+}
+.one{
+    background-color: green;
+    width: 20%;
+    height: 150px;
+    float: left;
+}
+.two{
+    background-color:coral;
+    width: 20%;
+    height: 150px;
+    float: left;
+}
+.three{
+    background-color: darkgoldenrod;
+    width: 20%;
+    height: 150px;
+    float: left;
+}
+.four{
+    background-color: darkorchid;
+    width: 40%;
+    height: 150px;
+    clear: both;
+}
+.two {
+    border: 5px yellow;
+}
+p{
+    margin: 10px;
+    padding: 10px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.foot{
+    background-color: blue;
+    width: 70%;
+    height: 150px;
+    clear: both;
+}

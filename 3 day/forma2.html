@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Uzpildykite forma:</h1>
+    <h4>visi laukai privalomi</h4>
+
+    <form action="#">
+        <p>Vardas (is didziosios)</p><br>
+        <input type="text" name="vardas" pattern="[A-Z]{1}[a-z]+" placeholder="Vardas"><br>
+
+        <p>Jusu telefono numeris:</p><br>
+        <input type="text" placeholder="+3706-xxx-xxxxx" pattern="[+][0-9]{4}[-][0-9]{3}[-][0-9]{4}" maxlength="14"><br>
+
+        <p>El. pasto adresas:</p><br>
+        <input type="email" placeholder="el.p. adresas"><br>
+
+        <p>Jusu mestamiausia svetaine:</p><br>
+        <input type="url" placeholder="url adresas"><br>
+
+        <p>jusu gimimo data:</p><br>
+        <input type="date"><br>
+
+        <p>Jusu amzius:</p><br>
+        <input type="number" placeholder="nuo 18 iki 65 metu" min="18" max="65"><br>
+
+        <p>Jusu pasto kodas:</p><br>
+        <input type="text" placeholder="XX-01234"  pattern="[A-Z]{2}[-][0-9]{5}" maxlength="8"><br>
+
+        <p>Jusu megstamiausia spalva:</p><br>
+        <select id="spalva">
+            <option value="">rinktis</option>
+            <option value="black">juoda</option>
+            <option value="white">balta</option>
+            <option value="other">kitos</option>
+        </select> <br>   
+        
+
+        <input type="submit"><br>
+
+    </form>
+
+
+
+    
+</body>
+</html>

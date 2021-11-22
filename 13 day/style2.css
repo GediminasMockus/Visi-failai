@@ -1,0 +1,138 @@
+/* div{
+    height: 100px;
+    width: 400px;
+    border-radius: 50px;
+    transform: translate(0px);
+    animation-direction: alternate;
+    animation: translate 2s infinite;
+}
+.one {
+    background-color: #a4c511;
+    animation-delay: 1s; 
+  }
+  
+  @keyframes translate {
+    0% {
+      transform: translateX(0px);
+    }
+    100% {
+      transform: translateX(100px);
+    }
+  }
+  
+  .two {
+    background-color: #1174c5;
+    animation-delay: 2s;
+  }
+
+  @keyframes translate {
+    0% {
+      transform: translateX(0px);
+    }
+    100% {
+      transform: translateX(150px);
+    }
+  }
+
+  .three {
+    background-color: #da0707;
+    animation-delay: 1s;
+  }
+  
+  @keyframes translate {
+    0% {
+      transform: translateX(0px);
+    }
+    100% {
+      transform: translateX(100px);
+    }
+  } */
+  
+/* antras */
+
+div{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    transform: translateY(0);
+    /* animation: translate 3s infinite; */
+    /* animation-direction: alternate; */
+
+}
+.one{
+    background-color: chocolate;
+    animation-delay: 1s;
+    animation: slide 3s infinite;
+    animation-direction: alternate;
+
+}
+  @keyframes slide{
+      0%{
+          transform: translateY(0);
+      }
+      100%{
+          transform: translateY(100px);
+      }
+  }
+  .two{
+    background-color: rgb(18, 175, 25);
+    animation-delay: 2s;
+    animation: slide 3s infinite;
+    animation-direction: alternate;
+
+}
+  @keyframes slide{
+      0%{
+          transform: translateY(0);
+      }
+      100%{
+          transform: translateY(100px);
+      }
+  }
+  .three{
+    background-color: rgb(48, 30, 210);
+    animation-delay: 3s;
+    animation: slide 3s infinite;
+    animation-direction: alternate;
+
+}
+  @keyframes slide{
+      0%{
+          transform: translateY(0);
+      }
+      100%{
+          transform: translateY(100px);
+      }
+  }
+  .four{
+    background-color: rgb(210, 30, 30);
+    animation-delay: 4s;
+    animation: slide 3s infinite;
+    animation-direction: alternate;
+
+}
+  @keyframes slide{
+      0%{
+          transform: translateY(0);
+      }
+      100%{
+          transform: translateY(100px);
+      }
+  }
+  .five{
+    background-color: rgb(210, 147, 30);
+    animation-delay: 5s;
+    animation: slide 3s infinite;
+    animation-direction: alternate;
+
+}
+  @keyframes slide{
+      0%{
+          transform: translateY(0);
+      }
+      100%{
+          transform: translateY(100px);
+      }
+  }
+  
+  

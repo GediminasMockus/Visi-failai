@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+.container-fluid{
+    background-color: rgb(63, 58, 58);   
+}
+h1{
+    text-align: center;
+    color: white;
+}
+p{
+    color: rgb(211, 143, 41);
+    text-align: center;
+}
+div,li{
+    color: white;
+}
+i{
+    color: rgb(211, 143, 41);
+}
+.bottomlist{
+    background-color: white;
+}
+h2{
+    color: black;
+}
+.nav{
+    color: black;
+}
+.nav:hover{
+    color: red;
+}
+footer{
+    background-color: rgb(63, 58, 58);
+    text-align: center;
+    color: rgb(211, 143, 41);
+    padding: 30px 30px;   
+}
+[4:21 PM] Elžbieta Fulga
+<div class="col-12 col-sm-12 col-md-6 col-lg-3 position-relative mb-3">                <img src="img/individualus.jpg" alt="individualus" class="w-100">                <div class="position-absolute bottom-0 end-0 translate-middle-y badge rounded-pill bg-sand">                    Individualios treniruotės                </div>            </div>
+ like 2
+

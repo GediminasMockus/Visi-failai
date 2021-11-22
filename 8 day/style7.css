@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+img{
+    float: left;
+    width: 500px;
+
+}
+.cont-1, .cont-2{
+    background-color: gray;
+    width: 90%;
+    height: 900px;
+    margin: -20px auto;
+}
+p{
+    margin:0 auto;
+   
+}
+.clear{
+    clear: both;
+}
+.f-left{
+    float: left;
+}
+
+@media(max-width:1200px){
+    img{
+        width: 400px;
+        float: left;
+    }
+    .cont-1, .cont-2{
+        background-color: lightseagreen;
+        width: 80%;
+        height: 600px;
+    }
+    
+
+
+}
+@media(max-width:576px){
+    img{
+        width: 300px;
+
+    }
+    .f-left{
+        clear: both;
+    }
+    .cont-1{
+        clear: both;
+        width: 99%;
+    }
+    .cont-2{
+        width: 99%;
+        padding: 10px;
+        margin: 10px;
+    }
+}

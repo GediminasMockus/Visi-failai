@@ -1,0 +1,15 @@
+.container{
+    width: 90%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px 10px;
+}
+.item{
+    border: 2px solid pink;
+    border-radius: 20px;
+    background-color: saddlebrown;
+    text-align: center;
+    
+
+}

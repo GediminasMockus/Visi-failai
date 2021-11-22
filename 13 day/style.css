@@ -1,0 +1,62 @@
+/* .col{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    transition-delay: 2s;
+    transition: 2s;
+    margin: 10px;
+}
+.col:hover{
+    width: 300px;
+
+}
+.third:hover{
+    border-radius: 100px;
+    background-color: brown;
+} */
+
+
+
+
+/* antras */
+
+.col{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    tra
+    transition: 2s;
+    margin: 10px;
+}
+.one:hover{
+    width: 50px;
+    height: 50px;
+    border-radius: 1px;
+}
+.two:hover{
+    width: 50px;
+    height: 50px;
+    border-radius: 1px;
+}
+.three:hover{
+    width: 50px;
+    height: 50px;
+    border-radius: 1px;
+}
+
+/* trecias */
+
+.text{
+    border: 1px solid black;
+    width: 400px;
+    height:100px;
+    margin: 10% 20%;
+    overflow: hidden;
+    transition: 3s;
+    
+      
+}
+.text:hover{
+    height: auto;
+}

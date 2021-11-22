@@ -1,0 +1,29 @@
+a{
+    font-size: 1.5em;
+    margin: -4px;
+    background: grey;
+    width: 2em;
+
+
+}
+
+
+a:visited{
+    color: green;
+}
+a:hover{
+    color: red;
+}
+.active{
+    border:1px solid black;
+    animation-timing-function: 5s;
+}
+.active{
+    border:1px solid black;
+}
+.active{
+    border:1px solid black;
+}
+.active{
+    border:1px solid black;
+}

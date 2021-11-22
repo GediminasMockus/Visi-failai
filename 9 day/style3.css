@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+div{
+    border: 1px solid black;
+}
+body{
+    background-color: darkturquoise;
+}
+.container1{
+    display: flex;
+    float: left;
+    background-color: darkolivegreen;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 70%;
+}
+.container2{
+    display: flex;
+    float: right;
+    background-color: darkorange;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 70%;
+
+}
+.item{
+    flex-basis: 30%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.item1{
+    width: auto;
+
+}
+.item2{
+    width: auto;
+}

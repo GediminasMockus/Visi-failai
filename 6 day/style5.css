@@ -1,0 +1,99 @@
+ /* general */
+
+*{
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;  
+    font-family: cursive;
+    
+}
+body{
+    background-color: slategray;
+}
+h2{
+    color: rgb(143, 78, 78);
+    font-size: 100px;
+}
+    /* header */
+ 
+
+.header-bg-img,h2{
+   background-image: url("vadim-morozov-GsonNDSTGE0-unsplash.jpg");
+   width: auto;
+   height: 500px;
+   background-size: cover;
+
+}
+header a{
+    color: seagreen;
+    font-family:cursive;
+    font-size: 1.5em;
+    text-decoration: none;
+    margin: 0 50px;
+}
+.header-bg-color{
+    background-color: rgba(11,11,11, 0.5);
+    width: auto;
+    height: 200px;
+    margin: auto;
+}
+.list-bg-color{
+    background-color: rgb(189, 138, 90);
+}
+
+    /* nav */
+
+
+.nav-btn{
+    border:5px solid red;
+    border-radius: 40%;
+    text-decoration: none;
+    width: 150px;
+    background-color: red;
+    margin: 10px;
+    
+
+}    
+
+/* main */
+
+
+main{
+    background-color: rgb(189, 138, 90);
+    width: 70%;
+    margin: 0 auto;
+}    
+    
+ h3,p{
+    color:white ;
+}
+
+.article-bg-img{
+    background-image: url("encourline-ybOmujH-g6Y-unsplash.jpg");  
+    background-size: cover;
+    background-position:center ;
+}
+.article-bg-img{
+    background-color:rgba( 2, 5 , 15, 0.7);
+}
+button{
+    font-size: 30px;
+}
+img{
+    border-radius: 40px;
+}
+
+/* footer */
+
+
+.footer-bg-color{
+    background-color: rgb(139, 60, 46);
+    
+}
+footer section a{
+    display: inline-block;
+    margin: 0 15px;
+    
+}
+

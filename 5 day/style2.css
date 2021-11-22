@@ -1,0 +1,63 @@
+h1{
+    color: lawngreen;
+
+}
+p::before{
+    content: "New!!";
+    color: red;
+}
+h2:link{
+    color: blue;
+}
+h2:visited{
+    color: crimson;
+}
+h2:hover{
+        color: darkgoldenrod;
+}
+h2:active{
+    color: darkgreen;
+}
+
+
+/*nuoroda*/
+a{
+    font-size: 80px;
+}
+    
+a:link{
+    color: blue;
+}
+a:visited{
+    color: crimson;
+}
+a:hover{
+        color: darkgoldenrod;
+}
+a:active{
+    color: darkgreen;
+}
+table,th,tr,td{
+    border: 1px solid black ;
+}
+
+th{
+    background: peru;
+}
+tr,td{
+    background: chartreuse;
+}
+td:hover{
+    background:red;
+}
+.lentele{
+    border: 1px black;
+
+
+}
+.lentele td:hover{
+    color:white ;
+    background-color: orchid;
+    font-size: 30px;
+
+}

@@ -1,0 +1,95 @@
+html, body{
+    height: 100%;
+    width:100%;
+    overflow: hidden;
+    margin: 0;
+  }
+  .grass, .sky, .road{
+    position: relative;
+  }
+  .sky{
+    height: 40%; background: skyblue;
+  }
+  .grass{
+    height: 30%;
+    background: seagreen;
+  }
+  .road{
+    height: 30%;
+    background: dimgrey;
+    box-sizing: border-box;
+    border-top: 10px solid grey;
+    border-bottom: 10px solid grey;
+    width: 100%;
+  }
+  .lines{
+    box-sizing: border-box;
+    border: 5px dashed #fff;
+    height: 0px;
+    width: 100%;
+    position: absolute;
+    top: 60%;
+  }
+  
+  .mario{
+    position: absolute;
+    animation-delay: 1s;
+    animation: mario 3s infinite;
+    animation-direction: alternate;
+    
+    
+  }
+  @keyframes mario{
+      0%{
+          transform: translateX(0px);
+      }
+      100%{
+          transform: translateX(1500px);
+      }
+  }
+  
+  .luigi {
+    position: absolute;
+    animation-delay: 2s;
+    animation: luigi 4s infinite;
+    animation-direction: alternate;
+   
+  }
+  @keyframes luigi{
+      0%{
+          transform:translateX(5px)
+      }
+      100%{
+          transform: translateX(1600px);
+      }
+  }
+  .cloud {
+    position: absolute;
+    animation: cloud 5s infinite;
+    /* animation-direction: alternate; */
+  }
+  @keyframes cloud{
+      0%{
+          transform: translateX(1900px);
+      }
+      100%{
+          transform: translateX(0px);
+      }
+  }
+  .cloud {
+    position: absolute;
+    animation-delay: 3s;
+    animation: cloud 5s infinite;
+    /* animation-direction: alternate; */
+  }
+  @keyframes cloud{
+      0%{
+          transform: translateX(1900px);
+      }
+      100%{
+          transform: translateX(0px);
+      }
+  }
+ 
+  
+    

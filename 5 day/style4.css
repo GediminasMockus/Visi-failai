@@ -1,0 +1,17 @@
+a{
+    color: blue;
+}
+li:nth-child(1){
+   background: gold; 
+}
+li:nth-child(3){
+    background: pink;
+    color:red;
+}
+li:nth-child(2){
+    background: pink;
+}
+li{
+    width: 150px;
+
+}

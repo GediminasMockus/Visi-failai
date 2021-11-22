@@ -1,0 +1,23 @@
+.container{
+    position: relative;
+    width: 80%;
+    top: -450px;
+    left: 350px;
+    font-size: 0.9em;
+    border: 1px solid black;
+}
+.social-container{
+    position: relative;
+    width: 15%;
+    height: 450px;
+    border: 1px solid black;
+
+}
+.fixed-icons{
+    position: relative;
+    width: 100px;
+}
+
+
+
+

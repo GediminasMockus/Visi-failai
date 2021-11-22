@@ -1,0 +1,45 @@
+body{
+    background-color:red;
+}
+.container{
+    background-color: gray;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 1px;
+    
+}
+.chat-box-left{
+    border: 1px solid black;
+    border-radius: 0 5px 5px 5px;
+    width: auto;
+    float: left;
+    background-color: green;
+    margin: 10px;
+    padding: 5px;
+
+}
+.chat-box-right{
+    border: 1px solid black;
+    border-radius:  5px 0 5px 5px ;
+    width: auto;
+    float: right;
+    background-color: indianred;
+    margin: 10px;
+    padding: 5px;
+}
+
+img{
+    border-radius: 10px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.f-clear{
+    clear: both;
+}
+.user-avatar-right{
+    float: right;
+}

@@ -1,0 +1,51 @@
+HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        header, main, footer, div {
+            border: 1px solid green;
+        }
+        main {
+            background-color: grey;
+        }
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        .f-left{
+            float: left;
+        }
+        .f-right{
+            float: right;
+        }
+        .f-clear{
+            clear: both;
+        }
+        div {
+            width: 33.33%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lorem, ipsum.</h1>
+    </header>
+    <main class="clearfix">
+        <div class="f-left"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam quam, nisi pariatur minima optio expedita veritatis debitis, officia ex minus consectetur corrupti autem mollitia enim facilis blanditiis fugit, sequi nemo?</div>
+        <div class="f-left">Ullam, molestiae suscipit dicta natus earum nulla exercitationem, totam asperiores, esse nemo dolorem nostrum officiis. Consequuntur, mollitia labore magnam eos dolor, cumque ut, lorkdjfskl jkfjsdklfj kjkljf sdkfj kfsdjfklsdjf sdkjfsdklfjsdklfjsdkj maxime quasi provident facilis ea eum similique!</div>
+        <div class="f-left">Quas eum ullam officia fugit asperiores voluptatibus aliquam, deserunt blanditiis optio placeat, temporibus quisquam ad! Vitae obcaecati odio, neque mollitia suscipit aspernatur autem possimus accusantium voluptatibus reprehenderit quidem pariatur cum.</div>
+    </main>
+    <footer class="f-clear">
+        <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium expedita enim ipsam recusandae ipsa magni quasi consequatur laborum laudantium dolor, nostrum vel delectus repellendus fuga fugit, aliquid ducimus reprehenderit quae?</h5>
+    </footer>
+</body>
+</html>
